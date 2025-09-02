@@ -1,10 +1,10 @@
-tapas_evaluation
+# tapas_evaluation
 
 
 This repository contains data and R scripts used for evaluating the uncertainty of LLMs in cell type annotation across multiple tissues.
 
 
-📁 /data/
+## 📁 data
 This folder contains input data files used for simulation and evaluation across multiple tissue types.
 | File                                                                                                                    | Description                                                                                                                                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ This folder contains input data files used for simulation and evaluation across 
 | `heart_df.rds`<br>`kidney_df.rds`<br>`lung_df.rds`<br>`pbmc_df.RDS`                                                     | Tissue-specific cell type hierarchy data matrices. Each file represents a cell type relationship tree for a specific tissue.                                                                                           |
 | `heart_distance_mtx_na.rda`<br>`kidney_distance_mtx_na.rda`<br>`lung_distance_mtx_na.rda`<br>`pbmc_distance_mtx_na.rda` | Pairwise cell type distance matrices corresponding to the tissue-specific `.rds` files. These matrices also include a synthetic “Unknown” cell type, whose distance is set to 1.5 times the maximum observed distance. |
 
-📁 /R_code/
+## 📁 R_code
 This folder contains all the R scripts used for simulation, assignment, visualization, and statistical evaluation.
 | File                                                                                                        | Description                                                                                                                                               |
 | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |

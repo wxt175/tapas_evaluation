@@ -1,7 +1,9 @@
-TAPAS Evaluation
+tapas_evaluation
+
+
 This repository contains data and R scripts used for evaluating the uncertainty of LLMs in cell type annotation across multiple tissues.
 
-Repository Structure
+
 📁 /data/
 This folder contains input data files used for simulation and evaluation across multiple tissue types.
 | File                                                                                                                    | Description                                                                                                                                                                                                            |

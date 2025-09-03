@@ -8,7 +8,7 @@ gc()
 
 
 
-Sys.setenv(OPENAI_API_KEY = 'sk-proj-xIWYBV3Yy7iXcQXr1SaHT3BlbkFJkGdD00exLCkCY2FkvacE')
+Sys.setenv(OPENAI_API_KEY = ' ')
 
 library(GPTCelltype)
 library(openai)

@@ -10,7 +10,7 @@ gc()
 #install.packages("openai")
 
 
-Sys.setenv(OPENAI_API_KEY = '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')
+Sys.setenv(OPENAI_API_KEY = '')
 
 library(GPTCelltype)
 library(openai)
